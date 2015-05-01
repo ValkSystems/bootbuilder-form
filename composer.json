@@ -1,0 +1,28 @@
+{
+    "name": "valksystems/bootbuilder-form",
+    "description": "Easy bootstrap form builder in PHP, using bootbuilder.",
+    "keywords": ["bootstrap", "builder", "form"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Valk",
+            "email": "info@valk.systems"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+		"valksystems/bootbuilder": "dev-master"
+    },
+    "require-dev": {
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "4.5.1",
+        "valksystems/bootbuilder": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "formbuilder": "src/"
+        }
+    }
+}
